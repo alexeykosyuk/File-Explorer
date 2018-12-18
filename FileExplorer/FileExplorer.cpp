@@ -1174,7 +1174,7 @@ WCHAR* GetType(WIN32_FIND_DATA fd)
 	RegCloseKey(hKey);
 	return pszPath;
 }
-//Load Icon
+
 VOID LoadIcon()
 {
 	hmlbig = ImageList_Create(48, 48, ILC_MASK | ILC_COLOR32, 1, 1);
